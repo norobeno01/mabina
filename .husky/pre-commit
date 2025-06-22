@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run image asset validation
+echo "🔍 Validating image assets..."
+node scripts/validate-images.js
+
+# Run linting
+echo "🔧 Running ESLint..."
+npm run lint
+
+# Run tests if they exist
+if [ -f "package.json" ] && grep -q '"test"' package.json; then
+  echo "🧪 Running tests..."
+  npm test
+fi
+
+echo "✅ Pre-commit checks completed!"
