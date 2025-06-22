@@ -68,7 +68,7 @@ const Gallery = ({ content }) => {
           {/* Gallery Grid */}
           <AnimatedSection>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredImages.map((image, index) => (
+              {filteredImages.map((image) => (
                 <div
                   key={image.id}
                   className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"

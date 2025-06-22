@@ -26,7 +26,7 @@ export const useScrollAnimation = (threshold = 0.1) => {
     return () => {
       observer.disconnect()
     }
-  }, [])
+  }, [threshold])
 
   return [ref, isVisible]
 }
@@ -38,7 +38,6 @@ export const useParallax = (speed = 0.5) => {
   useEffect(() => {
     const handleScroll = () => {
       if (ref.current) {
-        const rect = ref.current.getBoundingClientRect()
         const scrolled = window.pageYOffset
         const rate = scrolled * speed
         setOffset(rate)

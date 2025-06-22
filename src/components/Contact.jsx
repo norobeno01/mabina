@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react';
 import { Phone, Mail, MapPin, Star, Quote, Clock } from 'lucide-react'
 import AnimatedSection from './ui/animated-section'
 import WaveDivider from './ui/wave-divider'

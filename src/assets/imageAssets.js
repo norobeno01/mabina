@@ -55,7 +55,7 @@ import vegetarianOmeletteImg from './menu_images/Vegetarian_Omelette.jpg';
 // Juices Images
 import appleJuiceImg from './menu_images/Apple_Juice.jpg';
 import avocadoJuiceImg from './menu_images/Avocado_Juice.jpg';
-import avocadoDriedFruitImg from './menu_images/Avocado_with_Dried_Fruit_Juice.jpg';
+
 import bananaJuiceImg from './menu_images/Banana_Juice.jpg';
 import kiwiJuiceImg from './menu_images/Kiwi_Juice.jpg';
 import lemonGingerJuiceImg from './menu_images/Lemon_Ginger_Juice.jpg';
@@ -71,36 +71,30 @@ import strawberryJuiceImg from './menu_images/Strawberry_Juice.jpg';
 
 // Salads Images
 import cocktailSaladImg from './menu_images/Cocktail_Salad.jpg';
-import mediterraneanOctopusImg from './menu_images/Mediterranean_Octopus_Salad.jpg';
+
 import mediterraneanOctopusSaladImg from './menu_images/Mediterranean_Octopus_Salad.jpg';
 import mixedSaladImg from './menu_images/Mixed_Salad.jpg';
 import moroccanSaladImg from './menu_images/Moroccan_Salad.jpg';
 import seafoodSaladImg from './menu_images/Seafood_Salad.jpg';
 
 // Fish Images
-import calamariRigamonteImg from './menu_images/Calamari_Rigamonte_Style.jpg';
 import calamariRigamonteStyleImg from './menu_images/Calamari_Rigamonte_Style.jpg';
 import friedCalamariImg from './menu_images/Fried_Calamari.jpg';
 import friedCuttlefishImg from './menu_images/Fried_Cuttlefish.jpg';
 import garlicShrimpImg from './menu_images/Garlic_Shrimp.jpg';
 import grilledHakeFilletImg from './menu_images/Grilled_Hake_Fillet.jpg';
 import grilledRedSeaBreamImg from './menu_images/Grilled_Red_Sea_Bream.jpg';
-import grilledSaintPierreImg from './menu_images/Grilled_Saint-Pierre_Fillet.jpg';
 import grilledSaintPierreFilletImg from './menu_images/Grilled_Saint-Pierre_Fillet.jpg';
 import grilledSalmonFilletImg from './menu_images/Grilled_Salmon_Fillet.jpg';
 import grilledSeaBassImg from './menu_images/Grilled_Sea_Bass.jpg';
 import grilledSeaBreamImg from './menu_images/Grilled_Sea_Bream.jpg';
 import grilledShrimpImg from './menu_images/Grilled_Shrimp.jpg';
 import grilledSoleImg from './menu_images/Grilled_Sole.jpg';
-import grilledSwordfishImg from './menu_images/Grilled_Swordfish_Fillet.jpg';
 import grilledSwordfishFilletImg from './menu_images/Grilled_Swordfish_Fillet.jpg';
 import grilledTunaFilletImg from './menu_images/Grilled_Tuna_Fillet.jpg';
-import meroRigamonteImg from './menu_images/Mero_Rigamonte_Style.jpg';
 import meroRigamonteStyleImg from './menu_images/Mero_Rigamonte_Style.jpg';
 import mixedFryImg from './menu_images/Mixed_Fry.jpg';
-import royalSeafoodRigamonteImg from './menu_images/Royal_Seafood_Rigamonte_Style.jpg';
 import royalSeafoodRigamonteStyleImg from './menu_images/Royal_Seafood_Rigamonte_Style.jpg';
-import swordfishRigamonteImg from './menu_images/Swordfish_Rigamonte_Style.jpg';
 import swordfishRigamonteStyleImg from './menu_images/Swordfish_Rigamonte_Style.jpg';
 import fishSoupImg from './menu_images/Fish_Soup.jpg';
 import paellaImg from './menu_images/Paella.jpg';
@@ -118,7 +112,6 @@ import slicedMeatImg from './menu_images/Sliced_Meat.jpg';
 import keftaTagineImg from './menu_images/Kefta_Tagine.jpg';
 
 // Pasta Images
-import bolognesesPastaImg from './menu_images/Bolognese_Pasta.jpg';
 import bolognaisePastaImg from './menu_images/Bolognese_Pasta.jpg';
 import chickenPestoPastaImg from './menu_images/Chicken_Pesto_Pasta.jpg';
 import salmonChefSaucePastaImg from './menu_images/Salmon_Chef_Sauce_Pasta.jpg';
@@ -149,7 +142,6 @@ import kapsalonImg from './menu_images/Kapsalon.jpg';
 
 // Pizzas Images
 import fourSeasonsPizzaImg from './menu_images/4_Seasons_Pizza.jpg';
-import bolognesesPizzaImg from './menu_images/Bolognese_Pizza.jpg';
 import bolognaisePizzaImg from './menu_images/Bolognese_Pizza.jpg';
 import chickenPizzaImg from './menu_images/Chicken_Pizza.jpg';
 import margheritaPizzaImg from './menu_images/Margherita_Pizza.jpg';
@@ -272,7 +264,6 @@ export const imageAssets = {
   // Juices
   appleJuiceImg,
   avocadoJuiceImg,
-  avocadoDriedFruitImg,
   bananaJuiceImg,
   kiwiJuiceImg,
   lemonGingerJuiceImg,
@@ -288,36 +279,29 @@ export const imageAssets = {
 
   // Salads
   cocktailSaladImg,
-  mediterraneanOctopusImg,
   mediterraneanOctopusSaladImg,
   mixedSaladImg,
   moroccanSaladImg,
   seafoodSaladImg,
 
   // Fish
-  calamariRigamonteImg,
   calamariRigamonteStyleImg,
   friedCalamariImg,
   friedCuttlefishImg,
   garlicShrimpImg,
   grilledHakeFilletImg,
   grilledRedSeaBreamImg,
-  grilledSaintPierreImg,
   grilledSaintPierreFilletImg,
   grilledSalmonFilletImg,
   grilledSeaBassImg,
   grilledSeaBreamImg,
   grilledShrimpImg,
   grilledSoleImg,
-  grilledSwordfishImg,
   grilledSwordfishFilletImg,
   grilledTunaFilletImg,
-  meroRigamonteImg,
   meroRigamonteStyleImg,
   mixedFryImg,
-  royalSeafoodRigamonteImg,
   royalSeafoodRigamonteStyleImg,
-  swordfishRigamonteImg,
   swordfishRigamonteStyleImg,
   fishSoupImg,
   paellaImg,
@@ -335,7 +319,6 @@ export const imageAssets = {
   keftaTagineImg,
 
   // Pasta
-  bolognesesPastaImg,
   bolognaisePastaImg,
   chickenPestoPastaImg,
   salmonChefSaucePastaImg,
@@ -366,7 +349,6 @@ export const imageAssets = {
 
   // Pizzas
   fourSeasonsPizzaImg,
-  bolognesesPizzaImg,
   bolognaisePizzaImg,
   chickenPizzaImg,
   margheritaPizzaImg,
@@ -490,7 +472,6 @@ export {
   // Juices
   appleJuiceImg,
   avocadoJuiceImg,
-  avocadoDriedFruitImg,
   bananaJuiceImg,
   kiwiJuiceImg,
   lemonGingerJuiceImg,
@@ -506,36 +487,29 @@ export {
 
   // Salads
   cocktailSaladImg,
-  mediterraneanOctopusImg,
   mediterraneanOctopusSaladImg,
   mixedSaladImg,
   moroccanSaladImg,
   seafoodSaladImg,
 
   // Fish
-  calamariRigamonteImg,
   calamariRigamonteStyleImg,
   friedCalamariImg,
   friedCuttlefishImg,
   garlicShrimpImg,
   grilledHakeFilletImg,
   grilledRedSeaBreamImg,
-  grilledSaintPierreImg,
   grilledSaintPierreFilletImg,
   grilledSalmonFilletImg,
   grilledSeaBassImg,
   grilledSeaBreamImg,
   grilledShrimpImg,
   grilledSoleImg,
-  grilledSwordfishImg,
   grilledSwordfishFilletImg,
   grilledTunaFilletImg,
-  meroRigamonteImg,
   meroRigamonteStyleImg,
   mixedFryImg,
-  royalSeafoodRigamonteImg,
   royalSeafoodRigamonteStyleImg,
-  swordfishRigamonteImg,
   swordfishRigamonteStyleImg,
   fishSoupImg,
   paellaImg,
@@ -553,7 +527,6 @@ export {
   keftaTagineImg,
 
   // Pasta
-  bolognesesPastaImg,
   bolognaisePastaImg,
   chickenPestoPastaImg,
   salmonChefSaucePastaImg,
@@ -584,7 +557,6 @@ export {
 
   // Pizzas
   fourSeasonsPizzaImg,
-  bolognesesPizzaImg,
   bolognaisePizzaImg,
   chickenPizzaImg,
   margheritaPizzaImg,

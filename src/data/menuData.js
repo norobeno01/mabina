@@ -55,7 +55,6 @@ import {
   // Juices
   appleJuiceImg,
   avocadoJuiceImg,
-  avocadoDriedFruitImg,
   bananaJuiceImg,
   kiwiJuiceImg,
   lemonGingerJuiceImg,
@@ -71,36 +70,29 @@ import {
 
   // Salads
   cocktailSaladImg,
-  mediterraneanOctopusImg,
   mediterraneanOctopusSaladImg,
   mixedSaladImg,
   moroccanSaladImg,
   seafoodSaladImg,
 
   // Fish
-  calamariRigamonteImg,
   calamariRigamonteStyleImg,
   friedCalamariImg,
   friedCuttlefishImg,
   garlicShrimpImg,
   grilledHakeFilletImg,
   grilledRedSeaBreamImg,
-  grilledSaintPierreImg,
   grilledSaintPierreFilletImg,
   grilledSalmonFilletImg,
   grilledSeaBassImg,
   grilledSeaBreamImg,
   grilledShrimpImg,
   grilledSoleImg,
-  grilledSwordfishImg,
   grilledSwordfishFilletImg,
   grilledTunaFilletImg,
-  meroRigamonteImg,
   meroRigamonteStyleImg,
   mixedFryImg,
-  royalSeafoodRigamonteImg,
   royalSeafoodRigamonteStyleImg,
-  swordfishRigamonteImg,
   swordfishRigamonteStyleImg,
   fishSoupImg,
   paellaImg,
@@ -119,7 +111,6 @@ import {
   fernandezImg,
 
   // Pasta
-  bolognesesPastaImg,
   bolognaisePastaImg,
   chickenPestoPastaImg,
   salmonChefSaucePastaImg,
@@ -151,7 +142,6 @@ import {
 
   // Pizzas
   fourSeasonsPizzaImg,
-  bolognesesPizzaImg,
   bolognaisePizzaImg,
   chickenPizzaImg,
   margheritaPizzaImg,

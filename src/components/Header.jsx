@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Sun, Moon, Globe, ChevronDown, Home, Info, UtensilsCrossed, Star, Phone } from 'lucide-react'
 import { Button } from './ui/button'
-import { useTheme } from '../contexts/ThemeProvider'
+
 import { ThemeToggle } from './ui/theme-toggle'
 import AnimatedSection from './ui/animated-section'
 import logo from '../assets/logo.png'

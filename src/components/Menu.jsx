@@ -37,7 +37,7 @@ const Menu = ({ content, language }) => {
   ]
 
   // Category definitions with icons and gradients - reordered for better flow
-  const categories = [
+  const _categories = [
     { name: 'Breakfast', icon: '🍳', gradient: 'from-yellow-500 to-amber-500' },
     { name: 'Omelettes', icon: '🥚', gradient: 'from-yellow-400 to-orange-400' },
     { name: 'Salads', icon: '🥗', gradient: 'from-green-400 to-emerald-500' },
@@ -77,7 +77,7 @@ const Menu = ({ content, language }) => {
   })
 
   // Get item description based on language
-  const getDescription = (item) => {
+  const _getDescription = (item) => {
     switch (language) {
       case 'ar':
         return item.description_ar || item.description
@@ -287,7 +287,7 @@ const Menu = ({ content, language }) => {
                   
                   {/* Category Items Grid - Modern Creative Design */}
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {category.items.map((item, index) => (
+                    {category.items.map((item) => (
                       <Card key={item.id} className="group relative overflow-hidden bg-white dark:bg-gray-800 border-0 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:rotate-1 rounded-2xl">
                         {/* Decorative Background Pattern */}
                         <div className="absolute inset-0 opacity-5 dark:opacity-10">
