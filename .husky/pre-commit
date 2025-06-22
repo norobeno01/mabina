@@ -7,7 +7,7 @@ node scripts/validate-images.js
 
 # Run linting
 echo "🔧 Running ESLint..."
-npm run lint
+npx eslint src
 
 # Run tests if they exist
 if [ -f "package.json" ] && grep -q '"test"' package.json; then

@@ -1,16 +1,5 @@
-import React, { createContext, useContext, useEffect, useState } from 'react'
-
-const ThemeContext = createContext({
-  theme: 'light',
-  setTheme: () => null,
-})
-
-export const useTheme = () => {
-  const context = useContext(ThemeContext)
-  if (context === undefined)
-    throw new Error('useTheme must be used within a ThemeProvider')
-  return context
-}
+import { useEffect, useState } from 'react'
+import { ThemeContext } from './theme-utils'
 
 export const ThemeProvider = ({ children, defaultTheme = 'light', storageKey = 'mabina-theme', ...props }) => {
   const [theme, setTheme] = useState(

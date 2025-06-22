@@ -25,7 +25,7 @@ const requiredImages = [
 function checkImageExists(imagePath) {
   try {
     return fs.existsSync(imagePath);
-  } catch (error) {
+  } catch {
     return false;
   }
 }
@@ -50,10 +50,12 @@ function validateImages() {
   
   if (allImagesExist) {
     console.log('\n🎉 All required images are present!');
+    // eslint-disable-next-line no-undef
     process.exit(0);
   } else {
     console.log('\n❌ Some required images are missing!');
     console.log('Please ensure all required images are in the src/assets directory.');
+    // eslint-disable-next-line no-undef
     process.exit(1);
   }
 }
