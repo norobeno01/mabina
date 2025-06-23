@@ -1,5 +1,5 @@
 import React from 'react'
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable-next-line no-unused-vars -- motion is used in JSX tags (motion.svg, motion.path) */
 import { motion } from 'framer-motion'
 import { waveVariants, colorClasses, animationVariants, floatingAnimation } from './wave-presets'
 
