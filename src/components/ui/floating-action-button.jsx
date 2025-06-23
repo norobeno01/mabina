@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+/* eslint-disable-next-line no-unused-vars -- motion is used in JSX tags (motion.div) */
 import { AnimatePresence, motion } from 'framer-motion'
 import { Phone, Mail, Plus, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'

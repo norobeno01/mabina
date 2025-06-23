@@ -1,4 +1,5 @@
 import React from 'react'
+/* eslint-disable-next-line no-unused-vars -- motion is used in JSX tags (motion.div) */
 import { motion } from 'framer-motion'
 import { useScrollAnimation } from '@/hooks/useScrollAnimation'
 
