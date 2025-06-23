@@ -1,6 +1,17 @@
 // Basic images for menu items
 // Centralized Image Asset Management
 // Import all images from the centralized asset management system
+
+// Gallery Images - Direct imports
+import grilledSalmonImg from '../assets/grilled-salmon.jpg'
+import fishFilletImg from '../assets/fish-fillet.jpg'
+import lobsterImg from '../assets/lobster.jpg'
+import pastaImg from '../assets/pasta.jpg'
+import saladImg from '../assets/salad.jpg'
+import breakfastImg from '../assets/breakfast.jpg'
+import heroCarousel1Img from '../assets/hero_carousel_1.jpg'
+import heroCarousel2Img from '../assets/hero_carousel_2.jpg'
+
 import {
   // Hot Drinks
   blackCoffeeImg,
@@ -208,7 +219,7 @@ import {
 export const galleryImages = [
   {
     id: 1,
-    src: "/src/assets/grilled-salmon.jpg",
+    src: grilledSalmonImg,
     alt: "Grilled Salmon",
     category: "Seafood",
     title: "Fresh Grilled Salmon",
@@ -216,7 +227,7 @@ export const galleryImages = [
   },
   {
     id: 2,
-    src: "/src/assets/fish-fillet.jpg",
+    src: fishFilletImg,
     alt: "Fish Fillet",
     category: "Seafood",
     title: "Pan-Seared Fish Fillet",
@@ -224,7 +235,7 @@ export const galleryImages = [
   },
   {
     id: 3,
-    src: "/src/assets/lobster.jpg",
+    src: lobsterImg,
     alt: "Lobster",
     category: "Seafood",
     title: "Fresh Lobster",
@@ -232,7 +243,7 @@ export const galleryImages = [
   },
   {
     id: 4,
-    src: "/src/assets/pasta.jpg",
+    src: pastaImg,
     alt: "Seafood Pasta",
     category: "Pasta",
     title: "Seafood Linguine",
@@ -240,7 +251,7 @@ export const galleryImages = [
   },
   {
     id: 5,
-    src: "/src/assets/salad.jpg",
+    src: saladImg,
     alt: "Fresh Salad",
     category: "Salads",
     title: "Mediterranean Salad",
@@ -248,7 +259,7 @@ export const galleryImages = [
   },
   {
     id: 6,
-    src: "/src/assets/breakfast.jpg",
+    src: breakfastImg,
     alt: "Breakfast",
     category: "Breakfast",
     title: "Seafood Breakfast",
@@ -256,7 +267,7 @@ export const galleryImages = [
   },
   {
     id: 7,
-    src: "/src/assets/hero_carousel_1.jpg",
+    src: heroCarousel1Img,
     alt: "Restaurant Interior",
     category: "Restaurant",
     title: "Dining Area",
@@ -264,7 +275,7 @@ export const galleryImages = [
   },
   {
     id: 8,
-    src: "/src/assets/hero_carousel_2.jpg",
+    src: heroCarousel2Img,
     alt: "Restaurant Atmosphere",
     category: "Restaurant",
     title: "Restaurant Atmosphere",
@@ -284,7 +295,7 @@ export const offers = [
     description_ar: "احصل على خصم 20% على مجموعة الأسماك الطازجة اليومية",
     discount: "20% OFF",
     validUntil: "2024-12-31",
-    image: "/src/assets/fish-fillet.jpg",
+    image: fishFilletImg,
     category: "Seafood"
   },
   {
@@ -297,7 +308,7 @@ export const offers = [
     description_ar: "مثالي للعائلات - طبقان رئيسيان + طبقان جانبيان + مشروبات",
     discount: "Save €15",
     validUntil: "2024-12-31",
-    image: "/src/assets/grilled-salmon.jpg",
+    image: grilledSalmonImg,
     category: "Combo"
   },
   {
@@ -310,7 +321,7 @@ export const offers = [
     description_ar: "استمتع بقائمة برانش نهاية الأسبوع الخاصة مع خيارات المأكولات البحرية الطازجة",
     discount: "15% OFF",
     validUntil: "2024-12-31",
-    image: "/src/assets/breakfast.jpg",
+    image: breakfastImg,
     category: "Brunch"
   }
 ];
