@@ -4,11 +4,11 @@ A multilingual (English, French, Arabic) single page restaurant website for a se
 
 ## Run it
 ```bash
-npm install
+npm install --legacy-peer-deps
 npm run dev
 npm run build
 ```
-Note: `npm run build` runs image validation and lint first (`prebuild`).
+Note: `--legacy-peer-deps` is needed because react-day-picker 8 does not list date-fns 4 as a peer. `npm run build` runs image validation and lint first (`prebuild`).
 
 ## Notes
 - Restaurant name, photos, menu and contact details are the restaurant's content, not open source assets.
