@@ -12,4 +12,6 @@ Note: `--legacy-peer-deps` is needed because react-day-picker 8 does not list da
 
 ## Notes
 - Restaurant name, photos, menu and contact details are the restaurant's content, not open source assets.
-- No license has been chosen, so all rights are reserved.
+
+## License
+The source code is licensed under the MIT License (see [LICENSE](LICENSE)). The licence covers the code only. Photos and other images (including images from Unsplash), brand names, logos and business text (for example restaurant or visa-agency details) are not covered: they keep their own terms or are reserved by their owners.
